@@ -1,0 +1,682 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3E464E;
+}
+
+body img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.presentation{
+    display: flex;
+    width: 50vw;
+    position: absolute;
+    z-index: 10;
+    top: 69%;
+    left: 3%;
+}
+
+.presentation svg{
+    width: 233px;
+    height: 233px;
+}
+
+.colum{
+    display: flex;
+    flex-direction:column;
+    width: 40vw;
+    margin-left: 30px;
+}
+.colum p{
+    font-size: 45px;
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+p{
+    color: white;
+    font-family: 'Bebas Neue';
+    margin: 0;
+}
+
+h2{
+    font-family: 'Bebas Neue';
+    margin: 0;
+}
+
+.row i{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    display: flex;
+    
+}
+
+.fa-arrow-right:hover{
+    color: red;
+    transition: all 0.8s;
+}
+
+.icon_nav svg{
+    width: 125.79px;
+    height: 125.64px;
+}
+
+.container{
+    background-image: url('../img/deuxAmis.jpg');
+    background-size: cover;
+        background-attachment: fixed;
+        width: 100vw;
+        height: 100vh;
+}
+
+.gallery{
+    background-image: url('../img/feumaison.jpg');
+    background-size: cover;
+        background-attachment: fixed;
+        width: 100vw;
+        height: 100vh;
+}
+
+/*Accueil*/
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    height: 200px;
+    overflow: hidden;
+    transition: height 0.3s;
+}
+
+.shrink {
+    height: 120px;
+    background-color: #1B1D1E;
+    transition: all 0.3s;
+}
+
+header li
+{
+    font-size:30px;
+    font-weight:normal;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+header li
+{
+    font-size:24px;
+    font-weight:normal;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+header .icon_rex i
+{
+    font-size:30px;
+    font-weight:normal;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.shrink .icon_rex i
+{
+    font-size:24px;
+    font-weight:normal;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
+
+
+ul{
+    display: flex;
+    padding: 0;
+}
+
+li{
+    margin-left: 50px;
+    color: white;
+    list-style-type: none;
+    font-family: 'Bebas Neue';
+}
+
+.icon_nav{
+    margin-left: 20px;
+}
+
+.icon_rex i{
+    color: white;
+    margin-left: 10px;
+}
+
+.icon_rex{
+    width: 48vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.taille{
+    width: 50vw;
+}
+
+.shrink .icon_rex i
+{
+    font-size:24px;
+    font-weight:normal;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.shrink svg{
+    width: 85.79px;
+    height: 85.64px;
+    transition: all 0.3s;
+}
+
+
+.container .presentation{
+    display: flex;
+    width: 50vw;
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    left: 3%;
+}
+
+.transparent{
+    width: 100vw;
+    height: 100vh;
+}
+
+.equipe{
+    display: flex;
+}
+
+.equipe > div {
+    width: 50vw;
+    height: 90vh;
+   
+}
+
+.equipe img {
+    height: 90vh;
+    width: 50vw;
+}
+
+.equipe_text{
+    width: 60%;
+}
+.equipe_text p{
+    font-size: 20px;
+    
+}
+
+.equipe_text h2{
+    color: white;
+    font-size: 40px;
+}
+
+.equipe_centre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    width: 100vw;
+    height: 100vh;
+}
+
+.gallery img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.text_gallery{
+    position: relative;
+    z-index: 10;
+    top: 75%;
+    left: 3%;
+    width: 80vw;
+    font-size: 20px;
+}
+
+
+.newsletter{
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.com {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.com > div{
+    width: 70vw;
+    height: 17vh;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+
+form{
+    display: flex;
+    
+}
+
+input{
+    font-size: 20px;
+}
+.copyright{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.copyright > div{
+    width: 70vw;
+    margin-top: 30px;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+.com h2{
+    color: white;
+    font-size: 40px;
+}
+
+hr{
+    width: 70%;
+}
+
+.com i {
+    color: white;
+    font-size: 40px;
+    
+    margin-top: 20px;
+}
+
+.com p{
+    font-size: 25px;
+}
+
+.newsletter p{
+    font-size: 30px;
+}
+
+/* equipement */
+
+.carre_blanc{
+    background-color: white;
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carre_blanc h2{
+    margin-left: 45px;
+    font-size: 40px;
+
+}
+
+.descriptif > div{
+    width: 40vw;
+}
+
+.descriptif{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.ddd{
+    background-color: white;
+    width:100vw;
+    
+}
+
+.ddd > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.presentationBis{
+    left: 0;
+}
+
+.ddd h2{
+    font-size: 100px;
+    margin-top: 40px;
+    color: #D0D0D0;
+}
+
+.ddd p{
+    color: black;
+    font-size: 30px;
+    margin-top: 100px;
+}
+  
+  
+/*header*/
+
+/*equipe.html*/
+
+.contenu{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+.contenu p{
+    margin: 0;
+}
+
+.contenu h2{
+    margin: 0;
+}
+
+.photo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo > div {
+    display: flex;
+}
+
+.photo > div > div{
+    width: 15vw;
+    height: 35vh;
+}
+
+.photo img {
+    height: 30vh;
+    width: 15vw;
+    position:  initial;
+}
+
+.button_equipe{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.button_equipe button{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.actu{
+    background-color: #EAEAEA;
+    width: 100vw;
+    height: 75vh;
+}
+
+.actu > div {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.article{
+    display: flex;
+
+}
+
+.article .first{
+    width: 55vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.article .second{
+    width: 35vw;
+    height: 60vh;
+}
+
+.first > div{
+    width: 80%;
+    background-color: white;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+h3{
+    margin: 0;
+    margin-bottom: 10px;
+    color: red;
+    font-family: 'Bebas Neue';
+}
+
+.second > div{
+    width: 80%;
+    height: 87%;
+    padding: 10px;
+    background-color: #3E464E;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.second_proch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 95%;
+}
+
+.second_proch > div{
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+   
+}
+
+.actu h2{
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+.actu p{
+    color: #969696;
+}
+
+.second > div > div > h3{
+    color: white;
+    font-size: 30px;
+}
+
+/*Gallery.html*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+    "A A B C D E"
+    "A A F F D G"
+    "H I I J J M"
+    "H I I K L M"
+    ;
+    margin-bottom: 100px;
+}
+
+span{
+    position: relative;
+    top: 70%;
+    left: 2%;
+    display: none;
+}
+
+.grid img{
+    width: 100%;
+    height: 100%;
+    position: initial;
+}
+
+.grid div:hover{
+    opacity: .5;
+}
+
+.grid > div:nth-child(1){
+    grid-area: A;
+}
+
+.grid> div:nth-child(2){
+    grid-area: B;
+}
+
+.grid> div:nth-child(3){
+    grid-area: C;
+}
+
+.grid> div:nth-child(4){
+    grid-area: D;
+}
+
+.grid > div:nth-child(5){
+    grid-area: E;
+}
+
+.grid> div:nth-child(6){
+    grid-area: F;
+}
+
+.grid> div:nth-child(7){
+    grid-area: G;
+}
+
+.grid> div:nth-child(8){
+    grid-area: H;
+}
+
+.grid > div:nth-child(9){
+    grid-area: I;
+}
+
+.grid> div:nth-child(10){
+    grid-area: J;
+}
+
+.grid> div:nth-child(11){
+    grid-area: K;
+}
+
+.grid> div:nth-child(12){
+    grid-area: L;
+}
+
+.grid> div:nth-child(13){
+    grid-area: M;
+}
+
+.grid> div:nth-child(14){
+    grid-area: N;
+}
+
+/*button*/
+
+.type_button{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.type_button button{
+   margin-left: 10px;
+    
+}
+
+.choix h2{
+    font-size: 40px;
+    color: black;
+}
+
+.camionPompier{
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.camionPompier img{
+    position: relative;
+    z-index: 20;
+}
+
+.camionPompier h2{
+    font-size: 500Px;
+    position: absolute;
+    z-index: 5;
+    top: 120%;
+    left: 5%;
+
+}
+
