@@ -355,7 +355,7 @@ hr{
 /* equipement */
 
 .carre_blanc{
-    background-color: white;
+    background-color: #EAEAEA;
     width: 50vw;
     height: 20vh;
     display: flex;
@@ -380,7 +380,7 @@ hr{
 
 
 .ddd{
-    background-color: white;
+    background-color: #EAEAEA;
     width:100vw;
     
 }
@@ -686,5 +686,100 @@ canvas{
     top: 120%;
     left: 5%;
 
+}
+
+/*Formation html*/
+
+.bottom_marge{
+    margin-bottom: 100px;
+}
+
+.content_formation{
+   width: 90vw;
+   height: 80vh;
+   margin: 0 auto;
+   
+}
+
+.content_formation > div{
+    width: 50vw;
+    height: 80vh;
+    
+}
+
+.text_bas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    
+
+}
+
+.content_formation img{
+    width: 50vw;
+    height: 80vh;
+}
+
+.text_bas hr{
+    width: 10vw;
+    color: red;
+    margin: 0;
+
+}
+
+.text_bas p{
+    color: black;
+font-size: 15px;
+margin-top: 10px;
+}
+
+.text_bas > div {
+    width: 25vw;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.content_interview{
+    width: 90vw;
+   height: 70vh;
+   margin: 0 auto;
+   
+}
+
+.content_interview > div{
+    width: 50vw;
+    height: 70vh;
+    
+}
+
+
+video{
+    height: 60vh;
+    width: 40vw;
+    padding-bottom:50px ;
+    
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.text_fin{
+    width: 100vw;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.text_fin h3{
+    font-size: 30px;
+}
+
+.blanc p{
+    color:white;
 }
 
