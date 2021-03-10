@@ -178,13 +178,13 @@ li{
 }
 
 .icon_rex{
-    width: 48vw;
+    width: 45vw;
     display: flex;
     justify-content: flex-end;
 }
 
 .taille{
-    width: 50vw;
+    width: 45vw;
 }
 
 .shrink .icon_rex i
@@ -781,5 +781,9 @@ video{
 
 .blanc p{
     color:white;
+}
+
+.dddModif > div{
+    display: initial;
 }
 
