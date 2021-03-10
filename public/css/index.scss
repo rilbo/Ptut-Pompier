@@ -80,7 +80,7 @@ a{
 }
 
 .container{
-    background-image: url('../img/deuxAmis.jpg');
+    background-image: url('../img/35.jpg');
     background-size: cover;
         background-attachment: fixed;
         width: 100vw;
@@ -787,3 +787,28 @@ video{
     display: initial;
 }
 
+/* surbrillance FORMATION*/
+
+.bis:hover{
+    color: red;
+}
+
+.important{
+    color: red;
+}
+
+.important:hover{
+    color: white;
+}
+
+/*IMAGE*/
+
+.imgEquipe{
+    background-image: url('../img/equipe.jpg');
+    background-size: cover;
+}
+
+.imgEquipement{
+    background-image: url('../img/equipement.jpg');
+    background-size: cover;
+}
