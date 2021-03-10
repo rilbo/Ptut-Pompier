@@ -1,10 +1,10 @@
 
-import * as THREE from '../node_modules/three/build/three.module.js';
+import * as THREE from '../../node_modules/three/build/three.module.js';
 
-import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls.js';
-import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoader.js';
-import { RGBELoader } from '../node_modules/three/examples/jsm/loaders/RGBELoader.js';
-import { RoughnessMipmapper } from '../node_modules/three/examples/jsm/utils/RoughnessMipmapper.js';
+import { OrbitControls } from '../../node_modules/three/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from '../../node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import { RGBELoader } from '../../node_modules/three/examples/jsm/loaders/RGBELoader.js';
+import { RoughnessMipmapper } from '../../node_modules/three/examples/jsm/utils/RoughnessMipmapper.js';
 
 let camera, scene, renderer;
 
@@ -23,7 +23,7 @@ function init() {
 
     new RGBELoader()
         .setDataType( THREE.UnsignedByteType )
-        .load( '../textures/royal_esplanade_1k.hdr', function ( texture ) {
+        .load( '../../model/textures/royal_esplanade_1k.hdr', function ( texture ) {
 
             const envMap = pmremGenerator.fromEquirectangular( texture ).texture;
 
@@ -40,7 +40,7 @@ function init() {
             // use of RoughnessMipmapper is optional
             const roughnessMipmapper = new RoughnessMipmapper( renderer );
 
-            const loader = new GLTFLoader().setPath( '../model/glTF/' );
+            const loader = new GLTFLoader().setPath( '../../model/glTF/' );
             loader.load( 'DamagedHelmet.gltf', function ( gltf ) {
 
                 gltf.scene.traverse( function ( child ) {
@@ -66,7 +66,7 @@ function init() {
 
     renderer = new THREE.WebGLRenderer( { antialias: true } );
     renderer.setPixelRatio( window.devicePixelRatio );
-    renderer.setSize(window.innerWidth/2, window.innerHeight/2);
+    renderer.setSize(window.innerWidth/1.5, window.innerHeight/1.4);
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
     renderer.toneMappingExposure = 1;
     renderer.outputEncoding = THREE.sRGBEncoding;
